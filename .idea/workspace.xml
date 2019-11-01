@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c396a144-2574-49e2-9201-dbaa473f091f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1T0q7CFz6jZij9Ejzcwk4RHYnjQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisPlus01HelloWorldApplicationTests.testInsertKey">
+    <configuration name="MybatisPlus01HelloWorldApplicationTests.testHelloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beluga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beluga" />
+      <option name="MAIN_CLASS_NAME" value="com.beluga.MybatisPlus01HelloWorldApplicationTests" />
+      <option name="METHOD_NAME" value="testHelloWorld" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus01HelloWorldApplicationTests.testInsertKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beluga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beluga" />
+      <option name="MAIN_CLASS_NAME" value="com.beluga.MybatisPlus01HelloWorldApplicationTests" />
+      <option name="METHOD_NAME" value="testInsertKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus01HelloWorldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-plus-01-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.beluga.MybatisPlus01HelloWorldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus01HelloworldApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-plus-01-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.beluga.MybatisPlus01HelloworldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus01HelloworldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-plus-01-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.beluga.mybatisplus01helloworld.MybatisPlus01HelloworldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testInsertKey" />
+        <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testHelloWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c396a144-2574-49e2-9201-dbaa473f091f" name="Default Changelist" comment="" />
+      <created>1572607191557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572607191557</updated>
+      <workItem from="1572607198473" duration="1465000" />
+      <workItem from="1572608756836" duration="1845000" />
+      <workItem from="1572610668074" duration="2634000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
