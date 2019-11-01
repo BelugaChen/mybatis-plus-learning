@@ -53,7 +53,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisPlus01HelloWorldApplicationTests.testInsertKey">
+  <component name="RunManager" selected="JUnit.MybatisPlus01HelloWorldApplicationTests.testDelete">
+    <configuration name="MybatisPlus01HelloWorldApplicationTests.testCommonUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beluga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beluga" />
+      <option name="MAIN_CLASS_NAME" value="com.beluga.MybatisPlus01HelloWorldApplicationTests" />
+      <option name="METHOD_NAME" value="testCommonUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus01HelloWorldApplicationTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beluga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beluga" />
+      <option name="MAIN_CLASS_NAME" value="com.beluga.MybatisPlus01HelloWorldApplicationTests" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisPlus01HelloWorldApplicationTests.testHelloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-plus-01-helloworld" />
       <extension name="coverage">
@@ -86,6 +118,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisPlus01HelloWorldApplicationTests.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-01-helloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beluga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.beluga" />
+      <option name="MAIN_CLASS_NAME" value="com.beluga.MybatisPlus01HelloWorldApplicationTests" />
+      <option name="METHOD_NAME" value="testSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MybatisPlus01HelloWorldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mybatis-plus-01-helloworld" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.beluga.MybatisPlus01HelloWorldApplication" />
@@ -109,7 +157,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testDelete" />
         <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testInsertKey" />
+        <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testSelect" />
+        <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testCommonUpdate" />
         <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testHelloWorld" />
       </list>
     </recent_temporary>
@@ -126,7 +177,7 @@
       <updated>1572607191557</updated>
       <workItem from="1572607198473" duration="1465000" />
       <workItem from="1572608756836" duration="1845000" />
-      <workItem from="1572610668074" duration="2634000" />
+      <workItem from="1572610668074" duration="6007000" />
     </task>
     <servers />
   </component>
