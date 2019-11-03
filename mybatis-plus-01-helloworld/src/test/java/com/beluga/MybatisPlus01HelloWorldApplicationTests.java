@@ -1,7 +1,9 @@
 package com.beluga;
 
+import ch.qos.logback.core.joran.conditional.Condition;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.beluga.beans.Employee;
@@ -20,6 +22,49 @@ public class MybatisPlus01HelloWorldApplicationTests {
 
     @Autowired
     private EmployeeMapper employeeMapper;
+
+
+    /**
+     * 条件构造器 查询操作
+     */
+    @Test
+    public void testEntityWrapperSelect(){
+        IPage<Employee> page = employeeMapper.selectPage(new Page<Employee>(1, 2),
+                new QueryWrapper<Employee>()
+                        .between("age", 20, 50)
+                        .eq("gender",1)
+                        .eq("last_name","Tom"));
+        System.out.println(page.getRecords());
+
+        List<Employee> employees = employeeMapper.selectList(new QueryWrapper<Employee>()
+                .eq("gender", 0)
+                .like("last_name", "老师").or()
+                .like("email", "a"));
+        System.out.println(employees);
+
+
+    }
+
+    /**
+     * 条件构造器 修改操作
+     */
+    @Test
+    public void testEntityWrapperUpdate(){
+        employeeMapper.update(new Employee().setLastName("Silence").setEmail("sil@888.com").setGender(0),
+                new UpdateWrapper<Employee>()
+                        .eq("last_name","Tom")
+                        .eq("age",44));
+    }
+
+    /**
+     * 条件构造器 删除操作
+     */
+    @Test
+    public void testQueryWrapperDelete(){
+        employeeMapper.delete(new QueryWrapper<Employee>()
+                .eq("last_name","Kim"));
+    }
+
 
     /**
      * 删除操作

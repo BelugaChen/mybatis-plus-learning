@@ -18,6 +18,9 @@
 
     <modules>
         <module>mybatis-plus-01-helloworld</module>
+        <module>mybatis-plus-02-AR</module>
+        <module>mybatis-plus-03-autogenerator</module>
+        <module>mybatis-plus-04-plugins</module>
     </modules>
 
     <dependencies>

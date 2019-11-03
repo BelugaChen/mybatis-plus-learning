@@ -14,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,11 +35,28 @@
   <component name="ProjectId" id="1T0q7CFz6jZij9Ejzcwk4RHYnjQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-plus-04-plugins/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.beluga.mybatisplus02.mapper" />
+      <recent name="com.beluga.mybatisplus02.beans" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEAProjects\mybatis-plus-learning\mybatis-plus-04-plugins\src\main\resources" />
+      <recent name="E:\IDEAProjects\mybatis-plus-learning\mybatis-plus-04-plugins\src\main\java\com\beluga\mybatisplus04plugins" />
+      <recent name="E:\IDEAProjects\mybatis-plus-learning\mybatis-plus-03-autogenerator\src\main\resources" />
+      <recent name="E:\IDEAProjects\mybatis-plus-learning\mybatis-plus-03-autogenerator\src\main\java\com\beluga\mybatisplus03autogenerator" />
+      <recent name="E:\IDEAProjects\mybatis-plus-learning\mybatis-plus-02\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,82 +70,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisPlus01HelloWorldApplicationTests.testDelete">
-    <configuration name="MybatisPlus01HelloWorldApplicationTests.testCommonUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-plus-01-helloworld" />
+  <component name="RunManager" selected="JUnit.MybatisPlus04PluginsApplicationTests.testOptimisticLocker">
+    <configuration name="MybatisPlus02ApplicationTests.testARDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-02-AR" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beluga.*" />
+          <option name="PATTERN" value="com.beluga.mybatisplus02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beluga" />
-      <option name="MAIN_CLASS_NAME" value="com.beluga.MybatisPlus01HelloWorldApplicationTests" />
-      <option name="METHOD_NAME" value="testCommonUpdate" />
+      <option name="PACKAGE_NAME" value="com.beluga.mybatisplus02" />
+      <option name="MAIN_CLASS_NAME" value="com.beluga.mybatisplus02.MybatisPlus02ApplicationTests" />
+      <option name="METHOD_NAME" value="testARDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisPlus01HelloWorldApplicationTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-plus-01-helloworld" />
+    <configuration name="MybatisPlus02ApplicationTests.testARPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-02-AR" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beluga.*" />
+          <option name="PATTERN" value="com.beluga.mybatisplus02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beluga" />
-      <option name="MAIN_CLASS_NAME" value="com.beluga.MybatisPlus01HelloWorldApplicationTests" />
-      <option name="METHOD_NAME" value="testDelete" />
+      <option name="PACKAGE_NAME" value="com.beluga.mybatisplus02" />
+      <option name="MAIN_CLASS_NAME" value="com.beluga.mybatisplus02.MybatisPlus02ApplicationTests" />
+      <option name="METHOD_NAME" value="testARPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisPlus01HelloWorldApplicationTests.testHelloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-plus-01-helloworld" />
+    <configuration name="MybatisPlus03AutoGeneratorApplicationTests.testGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-03-autogenerator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beluga.*" />
+          <option name="PATTERN" value="com.beluga.mybatisplus03autogenerator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beluga" />
-      <option name="MAIN_CLASS_NAME" value="com.beluga.MybatisPlus01HelloWorldApplicationTests" />
-      <option name="METHOD_NAME" value="testHelloWorld" />
+      <option name="PACKAGE_NAME" value="com.beluga.mybatisplus03autogenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.beluga.mybatisplus03autogenerator.MybatisPlus03AutoGeneratorApplicationTests" />
+      <option name="METHOD_NAME" value="testGenerator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisPlus01HelloWorldApplicationTests.testInsertKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-plus-01-helloworld" />
+    <configuration name="MybatisPlus04PluginsApplicationTests.testOptimisticLocker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-04-plugins" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beluga.*" />
+          <option name="PATTERN" value="com.beluga.mybatisplus04plugins.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beluga" />
-      <option name="MAIN_CLASS_NAME" value="com.beluga.MybatisPlus01HelloWorldApplicationTests" />
-      <option name="METHOD_NAME" value="testInsertKey" />
+      <option name="PACKAGE_NAME" value="com.beluga.mybatisplus04plugins" />
+      <option name="MAIN_CLASS_NAME" value="com.beluga.mybatisplus04plugins.MybatisPlus04PluginsApplicationTests" />
+      <option name="METHOD_NAME" value="testOptimisticLocker" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisPlus01HelloWorldApplicationTests.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-plus-01-helloworld" />
+    <configuration name="MybatisPlus04PluginsApplicationTests.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-04-plugins" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.beluga.*" />
+          <option name="PATTERN" value="com.beluga.mybatisplus04plugins.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.beluga" />
-      <option name="MAIN_CLASS_NAME" value="com.beluga.MybatisPlus01HelloWorldApplicationTests" />
-      <option name="METHOD_NAME" value="testSelect" />
+      <option name="PACKAGE_NAME" value="com.beluga.mybatisplus04plugins" />
+      <option name="MAIN_CLASS_NAME" value="com.beluga.mybatisplus04plugins.MybatisPlus04PluginsApplicationTests" />
+      <option name="METHOD_NAME" value="testPage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,13 +172,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisPlus02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-plus-02-AR" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.beluga.mybatisplus02.MybatisPlus02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus03AutogeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-plus-03-autogenerator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.beluga.mybatisplus03autogenerator.MybatisPlus03AutoGeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlus04PluginsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-plus-04-plugins" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.beluga.mybatisplus04plugins.MybatisPlus04PluginsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testDelete" />
-        <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testInsertKey" />
-        <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testSelect" />
-        <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testCommonUpdate" />
-        <item itemvalue="JUnit.MybatisPlus01HelloWorldApplicationTests.testHelloWorld" />
+        <item itemvalue="JUnit.MybatisPlus04PluginsApplicationTests.testOptimisticLocker" />
+        <item itemvalue="JUnit.MybatisPlus04PluginsApplicationTests.testPage" />
+        <item itemvalue="JUnit.MybatisPlus03AutoGeneratorApplicationTests.testGenerator" />
+        <item itemvalue="JUnit.MybatisPlus02ApplicationTests.testARPage" />
+        <item itemvalue="JUnit.MybatisPlus02ApplicationTests.testARDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +215,7 @@
       <updated>1572607191557</updated>
       <workItem from="1572607198473" duration="1465000" />
       <workItem from="1572608756836" duration="1845000" />
-      <workItem from="1572610668074" duration="6007000" />
+      <workItem from="1572610668074" duration="21815000" />
     </task>
     <servers />
   </component>

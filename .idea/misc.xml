@@ -6,6 +6,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-plus-01-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-03-autogenerator/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-04-plugins/pom.xml" />
       </list>
     </option>
   </component>

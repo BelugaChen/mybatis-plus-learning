@@ -8,12 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-plus-01-helloworld" />
+        <module name="mybatis-plus-03-autogenerator" />
+        <module name="mybatis-plus-04-plugins" />
+        <module name="mybatis-plus-02-AR" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mybatis-plus-01-helloworld" options="-parameters" />
+      <module name="mybatis-plus-02-AR" options="-parameters" />
+      <module name="mybatis-plus-03-autogenerator" options="-parameters" />
+      <module name="mybatis-plus-04-plugins" options="-parameters" />
       <module name="mybatis-plus-learning" options="-parameters" />
     </option>
   </component>
